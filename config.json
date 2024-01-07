@@ -1,0 +1,17 @@
+{
+    "vm": {
+        "machine-name": "Debian",
+        "os-type": "Debian_64",
+        "iso-url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso",
+        "iso-out": "debian.iso",
+        "cpus": 4,
+        "diskSize": 2e6,
+        "vmemSize": 1e5
+    },
+    "ssh": {
+        "alias": "deb",
+        "login": "user",
+        "host": "localhost",
+        "port": 22
+    }
+}
